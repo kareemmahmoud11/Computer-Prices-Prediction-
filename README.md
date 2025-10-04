@@ -51,15 +51,6 @@ This is a tabular regression challenge designed to test your ability to:
 
 ### 1️⃣ CatBoost Regressor
 - **Why:** CatBoost handles categorical features natively, does not require scaling, and is robust to high-cardinality features.  
-- **Hyperparameters:**
-```python
-iterations=1000
-learning_rate=0.1
-depth=6
-l2_leaf_reg=8
-subsample=0.8
-early_stopping_rounds=50
-verbose=100
 
 - **Why:** Handles categorical features natively, does not require scaling, robust to high-cardinality features.  
 
